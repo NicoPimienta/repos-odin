@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.header-container{
+    background-color: rgb(214, 37, 37);
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 13px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Seccion uno */
+
+.container-section-1{
+    background-color: rgb(214, 37, 37);
+    display: flex;
+    align-items: center;
+    padding: 84px;
+}
+
+button{
+    width: 84px;
+    height: 42px;
+    margin-top: 20px;
+}
+
+.parte-izq{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.h1-section-1 p {
+    text-align: start;
+}
+
+
+.h1-section-1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+/* Seccion dos */
+
+
+.container-section-2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 84px;
+}
+
+.h1-section-2{
+    padding: 84px;
+}
+
+.cajas-img{
+    width: 150px;
+    border: red solid;
+    height: 150px;
+    background-image: url(/landing-page/img/star-fill.svg);
+    background-size: cover;
+}
+
+.container-cajas{
+    display: flex;
+    gap: 50px;
+}
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext{
+
+}
