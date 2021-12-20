@@ -36,7 +36,10 @@ a:link, a:visited, a:active {
 /* Seccion uno */
 
 .container-section-1{
-    background-color: rgb(214, 37, 37);
+    /* background-color: rgb(214, 37, 37); */
+    background-image: url(/repos-odin/landing-page/img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     padding: 84px;
@@ -59,9 +62,14 @@ button{
 }
 
 
-.h1-section-1{
+.h1-section-1 {
     font-size: 48px;
     font-weight: bolder;
+}
+
+#p-sec1 {
+    font-size: large;
+    font-weight: 500;
 }
 
 
@@ -79,13 +87,15 @@ button{
 
 .h1-section-2{
     padding: 84px;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .cajas-img{
     width: 150px;
     border: red solid;
     height: 150px;
-    background-image: url(/landing-page/img/star-fill.svg);
+    background-image: url(/repos-odin/landing-page/img/star-fill.svg);
     background-size: cover;
 }
 
@@ -98,8 +108,4 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.subtext{
-
 }
