@@ -109,3 +109,35 @@ button{
     flex-direction: column;
     align-items: center;
 }
+
+
+/* Seccion 3 */
+
+
+.container-seccion-3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 121px;
+}
+
+.container-cita{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+}
+
+.cita{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+sub{
+    font-weight:600;
+    font-size: small;
+}
